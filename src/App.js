@@ -39,7 +39,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/news" exact component={News} />
-        <Route path="/signin" exact component={Signin} />
+        <Route path="/Signin" exact component={Signin} />
         <Route path="/signup" exact component={Signup} />
         <Route path="/filter" exact component={FilterPage} />
         <Route path="/search" exact component={SearchPage} />

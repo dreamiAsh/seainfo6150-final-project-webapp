@@ -10,7 +10,7 @@ const Header = (props) => {
                 <BrowserRouter forceRefresh={true}><Link to="/search" className={styles.Go}>GO</Link></BrowserRouter>
             </div>
             <p className={styles.title}>Home recipe</p>
-            <BrowserRouter forceRefresh={true}><Link to="/signin" className={styles.signIn}>Sign in</Link></BrowserRouter>
+            <BrowserRouter forceRefresh={true}><Link to="/Signin" className={styles.signIn}>Sign in</Link></BrowserRouter>
         </div>
     );
 };
