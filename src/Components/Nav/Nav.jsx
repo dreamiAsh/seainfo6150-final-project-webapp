@@ -7,10 +7,10 @@ const Nav = (props) => {
           <ul className={styles.box}>
             {/* these links should show you how to connect up a link to a specific route */}
             <li className={styles.liCover}>
-              <BrowserRouter basename={process.env.PUBLIC_URL} forceRefresh={true}><Link to="/" className={styles.li}>Home</Link></BrowserRouter>
+              <BrowserRouter forceRefresh={true}><Link to="/" className={styles.li}>Home</Link></BrowserRouter>
             </li>
             <li className={styles.liCover}>
-              <BrowserRouter basename={process.env.PUBLIC_URL} forceRefresh={true}><Link to="/news" className={styles.li}>News</Link></BrowserRouter>
+              <BrowserRouter basename={process.env.PUBLIC_URL} forceRefresh={true}><Link to="/News" className={styles.li}>News</Link></BrowserRouter>
             </li>
             <li className={styles.liCover}>
               <BrowserRouter forceRefresh={true}><Link to="/filter" className={styles.li}>Filter</Link></BrowserRouter>
