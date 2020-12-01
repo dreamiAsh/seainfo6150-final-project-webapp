@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Signin component correctly 1`] = `
+<div>
+  <div>
+    <form>
+      <div
+        class="usernameBox"
+      >
+        <label
+          for="username"
+        >
+          Username: 
+        </label>
+        <input
+          id="username"
+          name="username"
+          type="text"
+        />
+      </div>
+      <div
+        class="passwordBox"
+      >
+        <label
+          for="password"
+        >
+          Password: 
+        </label>
+        <input
+          id="password"
+          name="password"
+          type="text"
+        />
+      </div>
+      <a
+        class="signupBotton"
+        href="/signup"
+      >
+        Sign up here
+      </a>
+      <input
+        class="submit"
+        type="submit"
+        value="Sign in"
+      />
+    </form>
+  </div>
+</div>
+`;

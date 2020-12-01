@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the RecipeItem component correctly 1`] = `
+<div>
+  <a
+    class="box"
+    href="/recipe/a/b/c/d/a/b/c/d/a/b"
+  >
+    <div
+      class="imgBox"
+    >
+      <img
+        alt="recipe image"
+        class="img"
+      />
+    </div>
+    <p
+      class="title"
+    >
+      a
+    </p>
+    <p
+      class="by"
+    >
+      By 
+      <span
+        class="author"
+      >
+        c
+      </span>
+    </p>
+  </a>
+</div>
+`;

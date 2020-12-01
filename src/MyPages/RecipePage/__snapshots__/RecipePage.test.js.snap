@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the RecipePage component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    <p
+      class="title"
+    />
+    <div
+      class="authorBox"
+    >
+      <a
+        class="author"
+        href="/author/undefined/undefined"
+      >
+        By 
+        <span
+          class="authorInside"
+        />
+      </a>
+      <p
+        class="reviews"
+      >
+         Reviews
+      </p>
+      <p
+        class="likes"
+      >
+         Likes
+      </p>
+    </div>
+    <div
+      class="imgBox"
+    >
+      <img
+        alt="recipe image"
+        class="img"
+        src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%undefined.jpg&w=272&h=272&c=sc&poi=face&q=85"
+      />
+      <div
+        class="rightBox"
+      >
+        <div
+          class="ingredientBox"
+        >
+          <p
+            class="ingredientTitle"
+          >
+            Ingredient
+          </p>
+          <p
+            class="ingredientContent"
+          />
+        </div>
+        <div
+          class="shortTextBox"
+        >
+          <p
+            class="sign"
+          >
+            “
+          </p>
+          <p
+            class="shortText"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="content"
+    >
+      <p
+        class="step"
+      >
+        Step 1
+      </p>
+      <p />
+      <p
+        class="step"
+      >
+        Step 2
+      </p>
+      <p />
+    </div>
+  </div>
+</div>
+`;

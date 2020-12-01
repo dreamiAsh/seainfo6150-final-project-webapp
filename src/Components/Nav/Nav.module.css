@@ -1,0 +1,23 @@
+.box{
+    width: 100%;
+    height: 30px;
+    background: #E5B687;
+    display: grid;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+    align-items: stretch;
+    grid-template-columns: repeat(4, 30fr);
+    text-align: center;
+}
+.li{
+    line-height: 30px;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.liCover:hover{
+    height: 30px;
+    background: #D05518;
+}

@@ -1,0 +1,25 @@
+.box{
+    text-align: center;
+}
+.imgBox{
+    width: 60%;
+    height: 280px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 60px;
+}
+.img{
+    width: 60%;
+}
+.title{
+    font-size: 22px;
+    color: grey;
+    margin: 26px 0;
+}
+.content{
+    width: 70%;
+    line-height: 28px;
+    display: inline-block;
+    color: grey;
+    margin-bottom: 120px;
+}

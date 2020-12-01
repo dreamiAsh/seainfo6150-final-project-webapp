@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the FilterPage component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    <button
+      class="button"
+    >
+      Fast food
+    </button>
+    <button
+      class="button"
+    >
+      Dessert
+    </button>
+    <button
+      class="button"
+    >
+      Lamp
+    </button>
+  </div>
+</div>
+`;

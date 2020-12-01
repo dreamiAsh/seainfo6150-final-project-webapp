@@ -1,0 +1,51 @@
+.usernameBox{
+    margin: 100px 37% 30px;
+}
+.passwordBox{
+    margin: 0 37% 30px;
+}
+.genderBox{
+    margin: 0 37% 30px;
+}
+.ageBox{
+    margin: 0 37% 30px;
+}
+.heard{
+    margin: 0 37% 30px;
+}
+.food{
+    margin: 0 37% 30px;
+}
+.taboos{
+    margin: 0 37% 30px;
+}
+.checkBox{
+    margin: 0 37% 30px;
+}
+.checkItem{
+    margin-right: 25px;
+}
+.inputItem{
+    margin-left: 5px;
+}
+.submit{
+    margin: 0 37% 300px;
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    border: gray;
+}
+.submit:hover{
+    background: #E5B687;
+}
+.alert{
+    font-weight: bold;
+    margin: 90px 37% 0;
+    color: orange
+}
+.welcome{
+    margin: 15% 25%;
+    font-size: 22px;
+    font-weight: bold;
+    color: grey;
+}

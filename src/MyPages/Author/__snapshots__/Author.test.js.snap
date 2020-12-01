@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Author component correctly 1`] = `
+<div>
+  <div>
+    <p
+      class="author"
+    >
+      Author:   
+      <span
+        class="inAuthor"
+      />
+    </p>
+    <p
+      class="authorInfo"
+    >
+      Self-introduction:   
+      <span
+        class="inAuthorInfo"
+      />
+    </p>
+    <p
+      class="guess"
+    >
+      Guess you may like
+    </p>
+    <ul
+      class="recipeList"
+    />
+  </div>
+</div>
+`;

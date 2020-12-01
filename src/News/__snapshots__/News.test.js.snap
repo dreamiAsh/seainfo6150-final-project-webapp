@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the News component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    <div
+      class="box"
+    >
+      <ul />
+    </div>
+  </div>
+</div>
+`;

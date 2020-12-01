@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the NewsItem component correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="box"
+      href="/news/a/b/c/d"
+    >
+      <img
+        alt=""
+        class="img"
+        src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%c.jpg&w=272&h=272&c=sc&poi=face&q=85"
+      />
+      <div
+        class="rightBox"
+      >
+        <h6
+          class="title"
+        >
+          a
+        </h6>
+        <p
+          class="date"
+        >
+          b
+        </p>
+      </div>
+    </a>
+  </div>
+</div>
+`;

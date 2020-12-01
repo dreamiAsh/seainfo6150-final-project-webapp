@@ -3,54 +3,42 @@
 exports[`renders the home component correctly 1`] = `
 <div>
   <div>
-    The home page
-    <img
-      alt="tree frog"
-      src="/images/treefrog.jpg"
-    />
-    <div>
-      <form>
-        <label
-          for="myTextId"
-        >
-          Input
-        </label>
-        <input
-          id="myTextId"
-          name="myText"
-          type="text"
-        />
-        <label
-          for="myDropdownId"
-        >
-          Input
-        </label>
-        <select
-          id="myDropdownId"
-          name="myDropdown"
-        >
-          <option
-            value="foo"
-          >
-            Foo
-          </option>
-          <option
-            value="bar"
-          >
-            Bar
-          </option>
-          <option
-            value="baz"
-          >
-            Baz
-          </option>
-        </select>
-        <input
-          type="submit"
-          value="Send it"
-        />
-      </form>
+    <div
+      class="imgBox"
+    >
+      <img
+        alt="food poster"
+        class="img"
+        src="https://images.squarespace-cdn.com/content/v1/5dedf21b7c131a3015fd5ad5/1575948055123-VLZ49JEXIYF8QMAABP6F/ke17ZwdGBToddI8pDm48kGNd1IaaP_-ea7nYNEFHDsp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UUIsyChEB7CNmEcY1NH_HD7WSuQ7QDejvk14LXDmYznTAN43Xjxxvi5UJclDbUAqLw/DSC04905-43_web.jpg?format=2500w"
+      />
     </div>
+    <div
+      class="box"
+    >
+      <div
+        class="leftBox"
+      >
+        <h4
+          class="itemTitle"
+        >
+          What's new
+        </h4>
+        <ul />
+      </div>
+      <div
+        class="rightBox"
+      >
+        <h4
+          class="itemTitle"
+        >
+          Most popular
+        </h4>
+        <ul />
+      </div>
+    </div>
+    <ul
+      class="recipeList"
+    />
   </div>
 </div>
 `;

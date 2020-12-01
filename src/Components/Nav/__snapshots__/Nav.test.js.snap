@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Nav component correctly 1`] = `
+<div>
+  <ul
+    class="box"
+  >
+    <li
+      class="liCover"
+    >
+      <a
+        class="li"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="liCover"
+    >
+      <a
+        class="li"
+        href="/news"
+      >
+        News
+      </a>
+    </li>
+    <li
+      class="liCover"
+    >
+      <a
+        class="li"
+        href="/filter"
+      >
+        Filter
+      </a>
+    </li>
+    <li
+      class="liCover"
+    >
+      <a
+        class="li"
+        href="/aboutUs"
+      >
+        About us
+      </a>
+    </li>
+  </ul>
+</div>
+`;

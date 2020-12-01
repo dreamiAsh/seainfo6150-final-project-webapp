@@ -1,0 +1,21 @@
+.box{
+    padding-top: 160px;
+    width: 100%;
+}
+
+.searchInput{
+    width: 55%;
+    height: 32px;
+    float: left;
+    margin-bottom: 200px;
+    margin-left: 17%;
+}
+.searchButton{
+    width: 10%;
+    height: 35px;
+    background: orange;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    margin-bottom: 200px;
+}

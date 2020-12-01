@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Error component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    404 Not found
+  </div>
+</div>
+`;

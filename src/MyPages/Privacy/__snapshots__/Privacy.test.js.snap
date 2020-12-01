@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Privacy component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    <div
+      class="box"
+    >
+      <div
+        class="imgBox"
+      >
+        <img
+          alt="poster image"
+          class="img"
+          src="https://covid19.lacounty.gov/wp-content/uploads/GettyImages-1128687123-1024x683.jpg"
+        />
+      </div>
+      <h5
+        class="title"
+      >
+        Privacy Policy
+      </h5>
+      <p
+        class="content"
+      >
+        Effective Date: February 12, 2020.  We are HomeRecipe! HomeRecipe focus on providing you with destinations you can trust and rely on for every stage of your life to connect you to great content, products and services and personalize your experience with us. Our mission is to be clear and transparent about how and why we collect and use information and to empower you to control your personal information. You are not our product, you are our customer. When Does this Policy Apply? This Privacy Statement applies when you interact with National Media Group brands (“Brands”), a division of Meredith Corporation, through their websites, mobile apps, email communications and other platforms (our “Sites”)  To read our EU Privacy Statement click here.
+      </p>
+    </div>
+    <p
+      class="q1"
+    >
+      What Personal Information Do Our Brands Collect about You?
+    </p>
+    <ul
+      class="ulBox"
+    >
+      <li
+        class="li"
+      >
+        * Contact Information (such as name, phone number, postal address or email address)
+      </li>
+      <li>
+        * Account/Registration Information (such as user name and password, reminder questions and answers and communications preferences, e.g. signing up for a newsletter or sweepstake, registering for an offer or an experience, or making a purchase)
+      </li>
+      <li>
+        * Payment Information (such as name, billing address, and credit card information, e.g. when making a purchase)
+      </li>
+      <li>
+        * Demographic information (such as age, gender race, income, occupation, marital status, and information about your household/family status, including your household size and the length of time at your residence)
+      </li>
+      <li>
+        * Online identifiers (such as IP address, internal and third party identifiers, advertising identifiers and device information like unique device ID)
+      </li>
+    </ul>
+  </div>
+</div>
+`;

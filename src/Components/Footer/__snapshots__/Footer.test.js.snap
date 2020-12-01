@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the footer component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    <div
+      class="leftBox"
+    >
+      <a
+        class="item"
+        href="/aboutUs"
+      >
+        About us
+      </a>
+    </div>
+    <div
+      class="middleBox"
+    >
+      <a
+        class="item"
+        href="/termService"
+      >
+        Terms of Service
+      </a>
+      <p
+        class="itemCompany"
+      >
+        © Copyright 2020 Home recipe Corporation
+      </p>
+    </div>
+    <div
+      class="rightBox"
+    >
+      <a
+        class="item"
+        href="/privacy"
+      >
+        Privacy policy
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+.author{
+    color: orange;
+    font-weight: bold;
+    margin: 100px 0 20px 13%;
+}
+.authorInfo{
+    color: orange;
+    font-weight: bold;
+    margin: 0 0 20px 13%;
+}
+.inAuthor{
+    color: black;
+    font-weight: normal;
+}
+.inAuthorInfo{
+    color: black;
+    font-weight: normal;
+}
+.guess{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 90px 0 20px 11%;
+}

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the SearchPage component correctly 1`] = `
+<div>
+  <div
+    class="box"
+  >
+    <input
+      class="searchInput"
+      placeholder="  Enter a recipe name"
+      type="text"
+    />
+    <p
+      class="searchButton"
+    >
+      Search
+    </p>
+  </div>
+</div>
+`;
