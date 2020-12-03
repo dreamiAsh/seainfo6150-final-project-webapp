@@ -10,7 +10,7 @@ const NewsList = (props) => {
       // put data fetching code here!
       // performs a GET request
       const response = await fetch(
-        "http://demo9533681.mockable.io/whatList"
+        "https://demo9533681.mockable.io/whatList"
       );
       const responseJson = await response.json();
       setFetchedData2(responseJson);
@@ -24,7 +24,7 @@ const NewsList = (props) => {
       // put data fetching code here!
       // performs a GET request
       const response = await fetch(
-        "http://demo9533681.mockable.io/popularList"
+        "https://demo9533681.mockable.io/popularList"
       );
       const responseJson = await response.json();
       setFetchedData(responseJson);

@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import { Switch, Route, Link } from "react-router-dom";
-import { isEmpty } from "lodash";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
@@ -33,32 +32,12 @@ const externalContent = {
 
 function App() {
 
-
-  const [fetchedData, setFetchedData] = useState({});
-  useEffect(() => {
-    const fetchData = async () => {
-      // put data fetching code here!
-      // performs a GET request
-      const response = await fetch(
-        "http://demo9533681.mockable.io/recipeList"
-      );
-      const responseJson = await response.json();
-      setFetchedData(responseJson);
-    };
-    if(isEmpty(fetchedData)) {
-      fetchData();
-    }
-  }, [fetchedData]);
-
   return (
     <>
       <Header/>
       <Nav/>
       <Switch>
-        {/* <Route path="/" exact component={Home} /> */}
-        <Route path="/" exact>
-          <Home recipes={Object.values(fetchedData)} />
-        </Route>
+        <Route path="/" exact component={Home} />
         <Route path="/news" exact component={News} />
         <Route path="/signin" exact component={Signin} />
         <Route path="/signup" exact component={Signup} />
