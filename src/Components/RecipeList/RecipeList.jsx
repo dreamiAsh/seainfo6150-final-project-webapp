@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styles from "./RecipeList.module.css";
 import RecipeItem from "../RecipeItem/RecipeItem"
+import { isEmpty } from "lodash";
 
 const RecipeList = () => {
 
@@ -15,7 +16,9 @@ const RecipeList = () => {
       const responseJson = await response.json();
       setFetchedData(responseJson);
     };
-    fetchData();
+    if(isEmpty(fetchedData)) {
+      fetchData();
+    }
   }, [fetchedData]);
 
     const myList = Object.values(fetchedData)
