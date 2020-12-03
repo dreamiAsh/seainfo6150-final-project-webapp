@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./RecipePage.module.css";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const RecipePage = (props) => {
 
@@ -8,7 +8,7 @@ const RecipePage = (props) => {
         <div className={styles.box}>
             <p className={styles.title}>{props.title}</p>
             <div className={styles.authorBox}>
-                <BrowserRouter forceRefresh={true}><Link className={styles.author} to={`/author/${props.author}/${props.authorInfo}`}>By <span className={styles.authorInside}>{props.author}</span></Link></BrowserRouter>
+                <Link className={styles.author} to={`/author/${props.author}/${props.authorInfo}`}>By <span className={styles.authorInside}>{props.author}</span></Link>
                 <p className={styles.reviews}>{props.reviews} Reviews</p>
                 <p className={styles.likes}>{props.likes} Likes</p>
             </div>

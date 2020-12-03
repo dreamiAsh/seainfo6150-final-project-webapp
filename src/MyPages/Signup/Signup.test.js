@@ -1,5 +1,5 @@
 import React from "react";
-import { render, fireEvent } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import Signup from "./Signup.jsx";
 
 it("renders the Signup component correctly", () => {

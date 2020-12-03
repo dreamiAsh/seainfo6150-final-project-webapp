@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import styles from "./Signin.module.css";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Signin = () => {
 
@@ -26,7 +26,7 @@ const Signin = () => {
                 <label htmlFor="password">Password: </label>
                 <input type="text" name="password" id="password"/>
               </div>
-              <BrowserRouter forceRefresh={true}><Link to="/signup" className={styles.signupBotton}>Sign up here</Link></BrowserRouter>
+              <Link to="/signup" className={styles.signupBotton}>Sign up here</Link>
               <input className={styles.submit} type="submit" value="Sign in" />
             </form>
           ) : 
@@ -41,7 +41,7 @@ const Signin = () => {
               <label htmlFor="password">Password: </label>
               <input type="text" name="password" id="password"/>
             </div>
-            <BrowserRouter forceRefresh={true}><Link to="/signup" className={styles.signupBotton}>Sign up here</Link></BrowserRouter>
+            <Link to="/signup" className={styles.signupBotton}>Sign up here</Link>
             <input className={styles.submit} type="submit" value="Sign in" />
           </form>
         )

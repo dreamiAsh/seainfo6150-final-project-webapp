@@ -1,6 +1,7 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import RecipeItem from "./RecipeItem.jsx";
+import { BrowserRouter } from "react-router-dom";
 
 it("renders the RecipeItem component correctly", () => {
   const recipe = {
@@ -15,6 +16,6 @@ it("renders the RecipeItem component correctly", () => {
       step1: "a",
       step2: "b"
   }
-  const { container } = render(<RecipeItem recipe={recipe}/>);
+  const { container } = render(<BrowserRouter><RecipeItem recipe={recipe}/></BrowserRouter>);
   expect(container).toMatchSnapshot();
 });

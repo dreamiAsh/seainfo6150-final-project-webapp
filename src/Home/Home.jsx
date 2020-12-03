@@ -1,30 +1,10 @@
 import React, {useEffect, useState} from "react";
-import treefrog from "../images/treefrog.jpg";
 import styles from "./Home.module.css";
 import NewsList from "../Components/NewsList/NewsList"
 import RecipeItem from "../Components/RecipeItem/RecipeItem"
 import RecipeList from "../Components/RecipeList/RecipeList"
 
 const Home = () => {
-
-  // const [fetchedData, setFetchedData] = useState({});
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     // put data fetching code here!
-  //     // performs a GET request
-  //     const response = await fetch(
-  //       "http://demo9533681.mockable.io/recipeList"
-  //     );
-  //     const responseJson = await response.json();
-  //     setFetchedData(responseJson);
-  //   };
-  //   fetchData();
-  // }, [fetchedData]);
-
-  //   const myList = Object.values(fetchedData)
-  //   const mappedList = myList.map((listItem) => (
-  //     <RecipeItem recipe={listItem}/>
-  //   ))
 
     return (
         <div>
