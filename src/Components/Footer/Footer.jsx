@@ -1,19 +1,19 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = (props) => {
   return (
     <div className={styles.box}>
         <div className={styles.leftBox}>
-            <BrowserRouter forceRefresh={true}><Link to="/aboutUs" className={styles.item}>About us</Link></BrowserRouter>
+            <Link to="/aboutUs" className={styles.item}>About us</Link>
         </div>
         <div className={styles.middleBox}>
-            <BrowserRouter forceRefresh={true}><Link to="/termService" className={styles.item}>Terms of Service</Link></BrowserRouter>
+            <Link to="/termService" className={styles.item}>Terms of Service</Link>
             <p className={styles.itemCompany}>© Copyright 2020 Home recipe Corporation</p>
         </div>
         <div className={styles.rightBox}>
-            <BrowserRouter forceRefresh={true}><Link to="/privacy" className={styles.item}>Privacy policy</Link></BrowserRouter>
+            <Link to="/privacy" className={styles.item}>Privacy policy</Link>
         </div>
     </div>
   );
